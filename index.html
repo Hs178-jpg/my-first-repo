@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hs178 的个人介绍</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <!-- 建议替换为自己的头像图片（见下方说明） -->
+        <img
+          src="cf9a0513ef8586afebee374433f1db8a.jpg"
+          alt="Hs178 的头像"
+          class="avatar"
+        />
+        <h1>Hs178</h1>
+        <p>前端初学者 | 热爱编程与设计</p>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="about">
+        <h2>关于我</h2>
+        <p>
+          我是一名编程爱好者，正在系统学习 Web 开发。
+          喜欢用代码解决问题，构建简洁美观的界面。 目前掌握 HTML、CSS 和 Git
+          基础。
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>技能</h2>
+        <div class="skills-grid">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">响应式设计</span>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>联系我</h2>
+        <p>📧 <a href="mailto:2669529513@qq.com">2669529513@qq.com</a></p>
+        <p>
+          🐙 <a href="https://github.com/Hs178-jpg" target="_blank">GitHub</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Hs178. 今日日期：<span id="current-date"></span></p>
+      </div>
+    </footer>
+
+    <script>
+      // 显示中文格式日期（可选）
+      document.getElementById("current-date").textContent =
+        new Date().toLocaleDateString("zh-CN");
+    </script>
+  </body>
+</html>
